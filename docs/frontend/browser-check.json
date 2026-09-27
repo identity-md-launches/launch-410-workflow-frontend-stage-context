@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-09-27T06:37:32.410Z",
+  "browser": "145.0.7632.6",
+  "mode": "Production dist at /preview/; injected mock wallet and JSON-RPC; no broadcasts",
+  "checks": [
+    {
+      "name": "Disconnected wallet; relative assets, price and events load",
+      "result": "pass"
+    },
+    {
+      "name": "Connect, wrong network, 4902 add-chain fallback with exact parameters",
+      "result": "pass"
+    },
+    {
+      "name": "Referral address validation, use-wallet and clipboard link preserve static subpath",
+      "result": "pass"
+    },
+    {
+      "name": "Amount validation and quoted minimum, then simulated native buy with referrer",
+      "result": "pass"
+    },
+    {
+      "name": "Sell explicitly approves exact REFR amount, authorizes configured router, then swaps",
+      "result": "pass"
+    },
+    {
+      "name": "Claim entire balance once; refresh disables empty claim",
+      "result": "pass"
+    },
+    {
+      "name": "Quote failure and transaction simulation failure never ask wallet to sign",
+      "result": "pass"
+    },
+    {
+      "name": "Wallet rejection remains recoverable and never reports success",
+      "result": "pass"
+    },
+    {
+      "name": "Account change invalidates a quote",
+      "result": "pass"
+    },
+    {
+      "name": "ABI tampering fails closed",
+      "result": "pass"
+    },
+    {
+      "name": "Missing browser wallet offers recovery",
+      "result": "pass"
+    },
+    {
+      "name": "Missing deployed code disables transaction controls",
+      "result": "pass"
+    },
+    {
+      "name": "RPC failure disables actions and Refresh data recovers",
+      "result": "pass"
+    },
+    {
+      "name": "Slippage errors point to the correct field and block quoting",
+      "result": "pass"
+    },
+    {
+      "name": "Quote expires after 30 seconds and cannot be reused",
+      "result": "pass"
+    },
+    {
+      "name": "Wallet change while a quote is pending discards the stale response",
+      "result": "pass"
+    },
+    {
+      "name": "Desktop/mobile/intermediate reflow; axe accessibility; rendered contrast; keyboard focus",
+      "result": "pass"
+    }
+  ],
+  "screenshots": [
+    "desktop.png",
+    "width-800.png",
+    "mobile.png",
+    "width-320.png",
+    "keyboard-focus.png"
+  ],
+  "errors": [],
+  "contrast": [
+    {
+      "selector": ".intro-copy",
+      "foreground": "rgb(89, 102, 94)",
+      "background": "rgb(245, 244, 239)",
+      "ratio": 5.468726903084845
+    },
+    {
+      "selector": ".link-card p",
+      "foreground": "rgb(32, 42, 37)",
+      "background": "rgb(228, 237, 218)",
+      "ratio": 12.276949330830258
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(54, 91, 53)",
+      "ratio": 7.7642724578371825
+    },
+    {
+      "selector": ".eyebrow",
+      "foreground": "rgb(89, 102, 94)",
+      "background": "rgb(245, 244, 239)",
+      "ratio": 5.468726903084845
+    }
+  ]
+}

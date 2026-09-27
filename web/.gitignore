@@ -1,0 +1,8 @@
+# This file is the explicitly allowed ignore path for the frontend.
+**/node_modules/
+**/.npm/
+**/.cache/
+**/.vite/
+**/playwright-report/
+**/test-results/
+*.tsbuildinfo

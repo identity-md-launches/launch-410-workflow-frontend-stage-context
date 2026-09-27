@@ -1,0 +1,31 @@
+{
+  "name": "referral-hook-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build && node scripts/export.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts",
+    "test:browser": "node tests/browser.mjs",
+    "check:export": "node scripts/check-export.mjs",
+    "check:rpc": "tsx scripts/check-rpc.ts"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "viem": "2.56.9"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "@playwright/test": "1.58.2",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.4",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  }
+}

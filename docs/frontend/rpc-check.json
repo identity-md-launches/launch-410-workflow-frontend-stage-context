@@ -1,0 +1,204 @@
+{
+  "checkedAt": "2026-09-27T06:34:08.073Z",
+  "mode": "read-only; no transactions signed or broadcast",
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chain": 11155111,
+      "block": "11791566",
+      "contracts": [
+        {
+          "name": "REFR",
+          "address": "0x9ff30d1afa005742830f2f78a9412f0aa8fff409",
+          "codeBytes": 1722
+        },
+        {
+          "name": "ReferralHook",
+          "address": "0xa0a2aed58075baeef1d5fe26b5ccae89257980cc",
+          "codeBytes": 4446
+        },
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "codeBytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "codeBytes": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "codeBytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "codeBytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "codeBytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "codeBytes": 9152
+        }
+      ],
+      "manager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "poolId": "0x4db275bf881fb6462bad50be8386a039a713c4da245180c6bf72d5aeec380d48",
+      "slot": [
+        "560227709747861399187319382274582",
+        177284,
+        0,
+        3000
+      ],
+      "liquidity": "0",
+      "quoteResult": [
+        "4962985601069505286390",
+        "95654"
+      ],
+      "buySimulation": {
+        "success": true,
+        "method": "eth_call with hypothetical sender balance override; no signing or broadcast",
+        "inputWei": "100000000000000",
+        "referrer": "0x2222222222222222222222222222222222222222"
+      }
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chain": 11155111,
+      "block": "11791566",
+      "contracts": [
+        {
+          "name": "REFR",
+          "address": "0x9ff30d1afa005742830f2f78a9412f0aa8fff409",
+          "codeBytes": 1722
+        },
+        {
+          "name": "ReferralHook",
+          "address": "0xa0a2aed58075baeef1d5fe26b5ccae89257980cc",
+          "codeBytes": 4446
+        },
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "codeBytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "codeBytes": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "codeBytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "codeBytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "codeBytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "codeBytes": 9152
+        }
+      ],
+      "manager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "poolId": "0x4db275bf881fb6462bad50be8386a039a713c4da245180c6bf72d5aeec380d48",
+      "slot": [
+        "560227709747861399187319382274582",
+        177284,
+        0,
+        3000
+      ],
+      "liquidity": "0",
+      "quoteResult": [
+        "4962985601069505286390",
+        "95654"
+      ],
+      "buySimulation": {
+        "success": true,
+        "method": "eth_call with hypothetical sender balance override; no signing or broadcast",
+        "inputWei": "100000000000000",
+        "referrer": "0x2222222222222222222222222222222222222222"
+      }
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chain": 11155111,
+      "block": "11791565",
+      "contracts": [
+        {
+          "name": "REFR",
+          "address": "0x9ff30d1afa005742830f2f78a9412f0aa8fff409",
+          "codeBytes": 1722
+        },
+        {
+          "name": "ReferralHook",
+          "address": "0xa0a2aed58075baeef1d5fe26b5ccae89257980cc",
+          "codeBytes": 4446
+        },
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "codeBytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "codeBytes": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "codeBytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "codeBytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "codeBytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "codeBytes": 9152
+        }
+      ],
+      "manager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "poolId": "0x4db275bf881fb6462bad50be8386a039a713c4da245180c6bf72d5aeec380d48",
+      "slot": [
+        "560227709747861399187319382274582",
+        177284,
+        0,
+        3000
+      ],
+      "liquidity": "0",
+      "quoteResult": [
+        "4962985601069505286390",
+        "95654"
+      ],
+      "buySimulation": {
+        "success": true,
+        "method": "eth_call with hypothetical sender balance override; no signing or broadcast",
+        "inputWei": "100000000000000",
+        "referrer": "0x2222222222222222222222222222222222222222"
+      }
+    }
+  ]
+}
